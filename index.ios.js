@@ -5,7 +5,7 @@
 'use strict';
 
 var React = require('react-native');
-var MapBox = require('react-native-mapbox-gl');
+var Mapbox = require('react-native-mapbox-gl');
 var mapRef = 'mapRef';
 var {
   AppRegistry,
@@ -16,7 +16,7 @@ var {
 } = React;
 
 var Nightmares = React.createClass({
-  mixins: [MapBox.Mixin],
+  mixins: [Mapbox.Mixin],
 
   getInitialState() {
     return {
