@@ -25,6 +25,15 @@
 		A0160AE01C2C00F100840B76 /* libRCTMapboxGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AD71C2BFF6D00840B76 /* libRCTMapboxGL.a */; };
 		A0160AE21C2C013C00840B76 /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0160AE11C2C013C00840B76 /* Mapbox.bundle */; };
 		A0160AE41C2C015D00840B76 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0160AE31C2C015D00840B76 /* Settings.bundle */; };
+		A0160AE61C2C02AB00840B76 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AE51C2C02AB00840B76 /* CoreTelephony.framework */; };
+		A0160AE81C2C02B800840B76 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AE71C2C02B800840B76 /* GLKit.framework */; };
+		A0160AEA1C2C02C100840B76 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AE91C2C02C100840B76 /* ImageIO.framework */; };
+		A0160AEC1C2C02CA00840B76 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AEB1C2C02CA00840B76 /* MobileCoreServices.framework */; };
+		A0160AEE1C2C02D200840B76 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AED1C2C02D200840B76 /* QuartzCore.framework */; };
+		A0160AF01C2C02DC00840B76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AEF1C2C02DC00840B76 /* SystemConfiguration.framework */; };
+		A0160AF21C2C02E500840B76 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AF11C2C02E500840B76 /* libc++.tbd */; };
+		A0160AF41C2C02F000840B76 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AF31C2C02F000840B76 /* libsqlite3.tbd */; };
+		A0160AF61C2C02F900840B76 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0160AF51C2C02F900840B76 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +155,15 @@
 		A0160ACD1C2BFF6D00840B76 /* RCTMapboxGL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTMapboxGL.xcodeproj; path = "../node_modules/react-native-mapbox-gl/ios/RCTMapboxGL.xcodeproj"; sourceTree = "<group>"; };
 		A0160AE11C2C013C00840B76 /* Mapbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Mapbox.bundle; sourceTree = "<group>"; };
 		A0160AE31C2C015D00840B76 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A0160AE51C2C02AB00840B76 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A0160AE71C2C02B800840B76 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A0160AE91C2C02C100840B76 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A0160AEB1C2C02CA00840B76 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A0160AED1C2C02D200840B76 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A0160AEF1C2C02DC00840B76 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A0160AF11C2C02E500840B76 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A0160AF31C2C02F000840B76 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A0160AF51C2C02F900840B76 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +178,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0160AF61C2C02F900840B76 /* libz.tbd in Frameworks */,
+				A0160AF41C2C02F000840B76 /* libsqlite3.tbd in Frameworks */,
+				A0160AF21C2C02E500840B76 /* libc++.tbd in Frameworks */,
+				A0160AF01C2C02DC00840B76 /* SystemConfiguration.framework in Frameworks */,
+				A0160AEE1C2C02D200840B76 /* QuartzCore.framework in Frameworks */,
+				A0160AEC1C2C02CA00840B76 /* MobileCoreServices.framework in Frameworks */,
+				A0160AEA1C2C02C100840B76 /* ImageIO.framework in Frameworks */,
+				A0160AE81C2C02B800840B76 /* GLKit.framework in Frameworks */,
+				A0160AE61C2C02AB00840B76 /* CoreTelephony.framework in Frameworks */,
 				A0160AE01C2C00F100840B76 /* libRCTMapboxGL.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -309,6 +336,15 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A0160AF51C2C02F900840B76 /* libz.tbd */,
+				A0160AF31C2C02F000840B76 /* libsqlite3.tbd */,
+				A0160AF11C2C02E500840B76 /* libc++.tbd */,
+				A0160AEF1C2C02DC00840B76 /* SystemConfiguration.framework */,
+				A0160AED1C2C02D200840B76 /* QuartzCore.framework */,
+				A0160AEB1C2C02CA00840B76 /* MobileCoreServices.framework */,
+				A0160AE91C2C02C100840B76 /* ImageIO.framework */,
+				A0160AE71C2C02B800840B76 /* GLKit.framework */,
+				A0160AE51C2C02AB00840B76 /* CoreTelephony.framework */,
 				A0160AE31C2C015D00840B76 /* Settings.bundle */,
 				A0160AE11C2C013C00840B76 /* Mapbox.bundle */,
 				13B07FAE1A68108700A75B9A /* Nightmares */,
